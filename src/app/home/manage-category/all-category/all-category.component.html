@@ -1,0 +1,20 @@
+<!--<p>all-category works!</p>
+<button class="btn btn-success" [routerLink]="['/home/manage-category/add-category']">Add category</button>-->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6"><br><br>
+            <h5>Available Category</h5><br><br>
+            <div *ngFor="let category of categories" class="card">
+                <div class="card-body">
+
+                    <h6>{{category}}</h6><br>
+                    <button class="btn btn-danger">delete</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+
+</div>

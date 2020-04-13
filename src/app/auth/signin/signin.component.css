@@ -1,0 +1,54 @@
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background-color: black;
+    top: 50%;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 0 0 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="email"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+}
+
+button {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: #fb2525;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.enterpassword {
+    color: white;
+    font-size: 17px;
+}

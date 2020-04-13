@@ -1,0 +1,18 @@
+<br>
+<br>
+<br><br>
+<div style="font-family: sans-serif; " class="row ">
+    <div class=" col-lg-4 col-md-3 col-sm-2 col-1"></div>
+    <div class="col-lg-4 col-md-6 col-sm-8 col-10 loginbox container">
+        <br><br>
+        <h1>Login Here</h1>
+        <br>
+        <p>Username</p>
+        <input type="email" name="" [(ngModel)]="email" placeholder="Enter Username">
+        <p>Password</p>
+        <input type="password" name="" [(ngModel)]="password" placeholder="Enter Password"><br>
+        <span class="enterpassword">Entered  Password  : <i style="color: red;"> {{password}}</i></span>
+        <br><br> <button class="btn btn-light" (click)="signIn()" style="width: 100%;">Sign In</button>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-2 col-1"></div>
+</div>
